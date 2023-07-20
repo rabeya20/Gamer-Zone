@@ -147,3 +147,34 @@
     }
      
 }
+/* online game section related styles */
+.online-games {
+    padding: 75px 0;
+}
+.online-game-title {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.online-game-description {
+text-align: center;
+font-size: 12px;
+color: rgb(96, 86, 72);
+
+}
+.card-container {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+   margin: auto;
+    padding-top: 23px;
+
+}
+.card-container p {
+    font-size: 13px;
+}
+.card-img {
+   width: 200px;
+   
+   
+}
