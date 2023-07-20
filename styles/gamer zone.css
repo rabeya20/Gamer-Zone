@@ -148,6 +148,7 @@
      
 }
 /* online game section related styles */
+
 .online-games {
     padding: 75px 0;
 }
@@ -175,6 +176,22 @@ color: rgb(96, 86, 72);
 }
 .card-img {
    width: 200px;
-   
-   
+
+}
+
+/* online game section related styles */
+
+@media screen and (max-width: 576px) {
+     .card-container {
+        flex-direction: column;
+        padding: 25px 0;
+     }
+     .card-img {
+        width: 250px;
+     }
+     .card {
+        padding: 10px 60px;
+       
+    }
+  
 }
