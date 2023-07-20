@@ -195,3 +195,47 @@ color: rgb(96, 86, 72);
     }
   
 }
+
+/* footer related styles */
+.footer {
+    background-color: black;
+    padding: 30px;
+}
+.footer-container {
+    text-align: center;
+}
+.footer-head {
+    display: flex;justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.white {
+    color: white;
+}
+.footer-text 
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(252, 228, 228);
+    padding: 20px 0;
+}
+.footer-foot {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.footer small {
+    color: rgb(193, 170, 170);
+    padding: 20px 0;
+
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+   
+}
