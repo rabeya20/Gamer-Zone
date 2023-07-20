@@ -202,7 +202,7 @@ color: rgb(96, 86, 72);
     justify-content: space-around;
     padding-bottom: 70px;
     padding-right: 20px;
-    /* align-items: center; */
+    
 }
 
 .third-main-img {
@@ -223,9 +223,33 @@ color: rgb(96, 86, 72);
 } 
 
 
-/* .third-text p {
-    width: 200px;
-} */
+/* responsive third section styles */
+@media screen and (max-width: 576px) {
+    .third-container {
+        flex-direction: column;
+        padding-top: 10px;
+
+
+    }
+    .third-pic {
+        text-align: center;
+        padding: 40px 0 80px 30px;
+        
+        position: relative;
+
+    }
+    .third-main-img {
+        width: 300px;
+    }
+    .third-side-img {
+        width: 150px;
+        height: 250px;
+        position: relative;
+        top: 150px;
+        right: 200px;
+        
+    }
+}
 
 /* fourth section related styles */
 
