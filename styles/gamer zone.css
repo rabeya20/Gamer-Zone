@@ -239,3 +239,24 @@ color: rgb(96, 86, 72);
     padding: 10px 0;
    
 }
+/* footer related responsive styles */
+/* for mobile */
+@media screen and (max-width: 576px) {
+    .footer-text {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       
+    }
+    .footer-foot {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 0;
+    }
+   #para {
+    color: rgb(199, 182, 182);
+    font-size: 13px;
+    width: 200px;
+    padding-left: 110px;
+   }
+}
+/* Finish */
