@@ -45,3 +45,25 @@
 #icon-y {
     color: red;
 }
+@media screen and (max-width: 576px) {
+    .nav-container, .list, .left-list {
+            flex-direction: column;
+    }
+    .nav-container {
+        padding: 30px 150px;
+        box-shadow: none;
+    }
+    .list {
+        padding-top: 40px;
+        
+    }
+    .left-list {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    #p {
+        padding-bottom: 20px;
+        
+    }
+    
+}
