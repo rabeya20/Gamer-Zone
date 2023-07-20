@@ -116,6 +116,14 @@
     background-color: rgb(47, 135, 135);
 }
 
+#icon {
+    color: rgb(183, 80, 80);
+}
+#icon2 {
+  color: rgb(47, 135, 135);
+  
+}
+
 /* responsive banner section styles */
 /* for mobile */
 
@@ -130,11 +138,12 @@
     }
     .img {
         width: 400px;
-        padding-left: 20px;
+        padding-left: 40px;
         padding-top: 35px;
     }
     .banner-text {
         padding:50px 0 50px 230px;
         
     }
+     
 }
