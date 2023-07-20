@@ -196,6 +196,57 @@ color: rgb(96, 86, 72);
   
 }
 
+/* fourth section related styles */
+
+   
+
+ .fourth-img { 
+      border: 1px solid gray;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      align-items: center;
+      width: 180px;
+      padding: 5px 0;
+      border: 0;
+      background-color: white;
+      font-weight: bolder;
+      
+      
+} 
+
+.fourth-img:hover {
+    border: 1px solid rgb(220, 11, 105);
+    color: rgb(220, 11, 105);
+    
+}
+
+.fourth-section-btn-1, .fourth-section-btn-3, .fourth-section-btn-5, .fourth-section-btn-8, .fourth-section-btn-9 {
+    width: 150px;
+}
+
+.fourth-img img {
+    height: 30px;
+ 
+}
+.up-btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    
+
+}
+.down-btn {
+    display:flex ;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+
 /* footer related styles */
 .footer {
     background-color: black;
