@@ -15,7 +15,6 @@
     display: flex;
     align-items: center;
     gap: 6px;
-
 }
 .icon-title {
     font-size: 35px;
@@ -30,7 +29,7 @@
     align-items: center;
     gap: 20px;
 }
-.lest-list {
+.left-list {
     display: flex;
     gap: 25px;
 }
@@ -55,7 +54,7 @@
     }
     .list {
         padding-top: 40px;
-        
+
     }
     .left-list {
         padding-bottom: 15px;
@@ -63,7 +62,52 @@
     }
     #p {
         padding-bottom: 20px;
-        
+
     }
+}
+/* main related styles */
+/* banner section styles  */
+.banner {
     
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100vh;
+    padding-left: 100px;
+    
+}
+.banner-text {
+    background-image: url(../images/Group\ 14.png), ;
+      
+}
+.img {
+    height: 500px;
+    
+}
+.banner > div {
+    width: 50%;
+}
+.banner-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 30px;
+}
+.purple {
+    font-size: 60px;
+}
+
+.paragraph {
+    padding: 3px 0;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(198, 61, 107);
+    border-radius: 8px;
+    color: white;
+}
+.sky {
+    background-color: rgb(47, 135, 135);
 }
